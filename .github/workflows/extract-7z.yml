@@ -33,7 +33,7 @@ jobs:
 
       # OPTIONAL: delete the archive after extraction
       - name: Remove archive
-        run: rm your-archive.7z
+        run: rm ModTemplate.7z
 
       - name: Commit and push changes
         run: |
